@@ -13,11 +13,14 @@
   "devDependencies": {
     "eslint": "7.18.0",
     "eslint-config-prettier": "7.2.0",
-    "parcel-bundler": "1.12.4",
+    "parcel": "1.12.4",
     "prettier": "2.2.1"
   },
   "dependencies": {
     "react": "17.0.1",
     "react-dom": "17.0.1"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
