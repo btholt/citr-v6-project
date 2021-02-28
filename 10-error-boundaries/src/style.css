@@ -5,7 +5,7 @@
 
 body {
   background-color: #81a69b;
-  background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png);
+  background-image: url(https://petapiv2.blob.core.windows.net/pets/wallpaperB.jpg);
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -16,19 +16,21 @@ body {
 }
 
 .search-params form {
-  background-color: #d9c148;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   width: 360px;
   margin: 0px 25px 0px 0px;
   padding: 35px 15px 15px 15px;
-  border-radius: 5px;
   float: left;
 }
 
 .search {
-  background-color: #d9c148;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   width: 715px;
   padding: 15px;
-  border-radius: 9px;
   float: left;
   margin-bottom: 25px;
 }
@@ -36,10 +38,11 @@ body {
 .details {
   width: 1100px;
   margin: 0 auto;
-  background-color: #d9c148;
   padding: 15px;
-  border-radius: 9px;
   margin-bottom: 25px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 .pet {
@@ -48,7 +51,7 @@ body {
   display: block;
   overflow: hidden;
   margin: 25px 0;
-  border-bottom: #bf9b2f 1px solid;
+  border-bottom: #333 2px solid;
 }
 
 .pet img {
@@ -77,7 +80,7 @@ body {
   white-space: nowrap;
   font-weight: normal;
   font-size: 30px;
-  color: #bf3334;
+  color: #333;
   width: 95%;
   overflow: hidden;
   margin: 0;
@@ -88,6 +91,7 @@ header > a,
 #root > div > h1 {
   display: inline-block;
   background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
+  filter: brightness(150%);
   width: 279px;
   height: 76px;
   overflow: hidden;
@@ -103,7 +107,7 @@ header > a,
 }
 
 header a {
-  color: #bf3334;
+  color: #333;
   font-size: 3px;
   text-decoration: none;
   font-weight: bold;
@@ -114,7 +118,7 @@ header a {
 header {
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 1100px;
   margin: 0 auto;
   padding: 20px 0px 0px 0px;
@@ -127,7 +131,7 @@ header {
 
 .details h1 {
   text-align: center;
-  color: #bf3334;
+  color: #333;
   font-size: 60px;
   margin: 5px 0px;
 }
@@ -165,7 +169,7 @@ header {
 }
 
 .carousel-smaller > img.active {
-  border-color: #ad343e;
+  border-color: #333;
   opacity: 0.6;
 }
 
@@ -229,8 +233,9 @@ header {
   background-color: white;
   max-width: 500px;
   padding: 15px;
-  border-radius: 5px;
   text-align: center;
+  border-radius: 30px;
+  background: #e0e0e0;
 }
 
 #modal .buttons button {
@@ -242,7 +247,7 @@ header {
   header {
     display: flex;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 95%;
     margin: 0 auto;
     padding: 20px 0px 0px 0px;
