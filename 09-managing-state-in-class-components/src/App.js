@@ -23,4 +23,9 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById("root"));
+render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  document.getElementById("root")
+);

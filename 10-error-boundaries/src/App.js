@@ -1,3 +1,4 @@
+import { StrictMode } from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Details from "./Details";
@@ -23,4 +24,9 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById("root"));
+render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  document.getElementById("root")
+);
