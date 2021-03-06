@@ -1,16 +1,16 @@
-import { Component, FunctionComponent } from "react";
+import { Component } from "react";
 import { withRouter, RouteComponentProps } from "react-router-dom";
 import ThemeContext from "./ThemeContext";
 import Carousel from "./Carousel";
 import ErrorBoundary from "./ErrorBoundary";
 import Modal from "./Modal";
-import { PetAPIResponse } from "./APIResponsesTypes";
+import { PetAPIResponse, Animal } from "./APIResponsesTypes";
 
 class Details extends Component<RouteComponentProps<{ id: string }>> {
   state = {
     loading: true,
     showModal: false,
-    animal: "",
+    animal: "" as Animal,
     breed: "",
     city: "",
     state: "",
@@ -83,12 +83,10 @@ class Details extends Component<RouteComponentProps<{ id: string }>> {
 
 const DetailsWithRouter = withRouter(Details);
 
-const DetailsErrorBoundary: FunctionComponent = function DetailsErrorBoundary() {
+export default function DetailsErrorBoundary(): JSX.Element {
   return (
     <ErrorBoundary>
       <DetailsWithRouter />
     </ErrorBoundary>
   );
-};
-
-export default DetailsErrorBoundary;
+}

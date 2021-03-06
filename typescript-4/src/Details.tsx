@@ -4,13 +4,13 @@ import ThemeContext from "./ThemeContext";
 import Carousel from "./Carousel";
 import ErrorBoundary from "./ErrorBoundary";
 import Modal from "./Modal";
-import { PetAPIResponse } from "./APIResponsesTypes";
+import { PetAPIResponse, Animal } from "./APIResponsesTypes";
 
 class Details extends Component<RouteComponentProps<{ id: string }>> {
   state = {
     loading: true,
     showModal: false,
-    animal: "",
+    animal: "" as Animal,
     breed: "",
     city: "",
     state: "",
