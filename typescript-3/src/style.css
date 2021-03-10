@@ -5,7 +5,7 @@
 
 body {
   background-color: #81a69b;
-  background-image: url(https://petapiv2.blob.core.windows.net/pets/wallpaperB.jpg);
+  background-image: url(http://pets-images.dev-apis.com/pets/wallpaperB.jpg);
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -16,9 +16,9 @@ body {
 }
 
 .search-params form {
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-radius: 6px;
+  background: #faeff0;
+  box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
   width: 360px;
   margin: 0px 25px 0px 0px;
   padding: 35px 15px 15px 15px;
@@ -26,9 +26,9 @@ body {
 }
 
 .search {
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-radius: 6px;
+  background: #faeff0;
+  box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
   width: 715px;
   padding: 15px;
   float: left;
@@ -40,9 +40,9 @@ body {
   margin: 0 auto;
   padding: 15px;
   margin-bottom: 25px;
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-radius: 6px;
+  background: #faeff0;
+  box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
 }
 
 .pet {
@@ -96,6 +96,7 @@ header > a,
   height: 76px;
   overflow: hidden;
   text-indent: -9999px;
+  margin: 20px 0;
 }
 
 .pet h2 {
@@ -235,7 +236,7 @@ header {
   padding: 15px;
   text-align: center;
   border-radius: 30px;
-  background: #e0e0e0;
+  background: #faeff0;
 }
 
 #modal .buttons button {

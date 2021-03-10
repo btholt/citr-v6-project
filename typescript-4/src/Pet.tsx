@@ -13,7 +13,7 @@ interface Props {
 const Pet: FunctionComponent<Props> = (props) => {
   const { name, animal, breed, images, location, id } = props;
 
-  let hero = "https://petapiv2.blob.core.windows.net/pets/none.jpg";
+  let hero = "http://pets-images.dev-apis.com/pets/none.jpg";
   if (images.length) {
     hero = images[0];
   }

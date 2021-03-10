@@ -20,11 +20,11 @@ exports[`renders correctly with some pets 1`] = `
     id={1}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/dog25.jpg",
-        "https://petapiv2.blob.core.windows.net/pets/dog26.jpg",
-        "https://petapiv2.blob.core.windows.net/pets/dog27.jpg",
-        "https://petapiv2.blob.core.windows.net/pets/dog28.jpg",
-        "https://petapiv2.blob.core.windows.net/pets/dog29.jpg",
+        "http://pets-images.dev-apis.com/pets/dog25.jpg",
+        "http://pets-images.dev-apis.com/pets/dog26.jpg",
+        "http://pets-images.dev-apis.com/pets/dog27.jpg",
+        "http://pets-images.dev-apis.com/pets/dog28.jpg",
+        "http://pets-images.dev-apis.com/pets/dog29.jpg",
       ]
     }
     location="Seattle, WA"
@@ -36,7 +36,7 @@ exports[`renders correctly with some pets 1`] = `
     id={2}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/rabbit0.jpg",
+        "http://pets-images.dev-apis.com/pets/rabbit0.jpg",
       ]
     }
     location="Lexington, KY"
@@ -48,7 +48,7 @@ exports[`renders correctly with some pets 1`] = `
     id={3}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/rabbit1.jpg",
+        "http://pets-images.dev-apis.com/pets/rabbit1.jpg",
       ]
     }
     location="Dallas, TX"
@@ -60,7 +60,7 @@ exports[`renders correctly with some pets 1`] = `
     id={4}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/rabbit2.jpg",
+        "http://pets-images.dev-apis.com/pets/rabbit2.jpg",
       ]
     }
     location="Tampa, FL"
@@ -72,7 +72,7 @@ exports[`renders correctly with some pets 1`] = `
     id={5}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/reptile1.jpg",
+        "http://pets-images.dev-apis.com/pets/reptile1.jpg",
       ]
     }
     location="Tuscaloosa, AL"
@@ -84,7 +84,7 @@ exports[`renders correctly with some pets 1`] = `
     id={6}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/bird2.jpg",
+        "http://pets-images.dev-apis.com/pets/bird2.jpg",
       ]
     }
     location="Carol Stream, IL"
@@ -96,7 +96,7 @@ exports[`renders correctly with some pets 1`] = `
     id={7}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/reptile2.jpg",
+        "http://pets-images.dev-apis.com/pets/reptile2.jpg",
       ]
     }
     location="Bridgeport, CT"
@@ -108,7 +108,7 @@ exports[`renders correctly with some pets 1`] = `
     id={8}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/dog0.jpg",
+        "http://pets-images.dev-apis.com/pets/dog0.jpg",
       ]
     }
     location="Charlotte, NC"
@@ -120,7 +120,7 @@ exports[`renders correctly with some pets 1`] = `
     id={9}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/rabbit3.jpg",
+        "http://pets-images.dev-apis.com/pets/rabbit3.jpg",
       ]
     }
     location="Springfield, IL"
@@ -132,7 +132,7 @@ exports[`renders correctly with some pets 1`] = `
     id={10}
     images={
       Array [
-        "https://petapiv2.blob.core.windows.net/pets/dog1.jpg",
+        "http://pets-images.dev-apis.com/pets/dog1.jpg",
       ]
     }
     location="Tucson, AZ"

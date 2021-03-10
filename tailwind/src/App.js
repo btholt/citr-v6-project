@@ -13,7 +13,7 @@ const App = () => {
         className="p-0 m-0"
         style={{
           background:
-            "url(https://petapiv2.blob.core.windows.net/pets/wallpaperA.jpg)",
+            "url(http://pets-images.dev-apis.com/pets/wallpaperA.jpg)",
         }}
       >
         <Router>

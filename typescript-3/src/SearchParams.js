@@ -19,7 +19,7 @@ const SearchParams = () => {
 
   async function requestPets() {
     const res = await fetch(
-      `https://pet-api-v2.azurewebsites.net/api/pets?animal=${animal}&location=${location}&breed=${breed}`
+      `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
     );
     const json = await res.json();
 
