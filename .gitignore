@@ -1,4 +1,8 @@
-.DS_Store
-node_modules/
+node_modules
 .cache/
-.temp/
+dist/
+dist-server/
+.env
+.DS_Store
+coverage/
+.vscode/
