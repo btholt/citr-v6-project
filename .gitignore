@@ -5,4 +5,5 @@ dist-server/
 .env
 .DS_Store
 coverage/
-.vscode/
+.vscode/ 
+package-lock.json 

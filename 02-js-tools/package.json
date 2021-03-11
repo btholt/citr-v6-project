@@ -13,7 +13,7 @@
   "devDependencies": {
     "eslint": "7.18.0",
     "eslint-config-prettier": "7.2.0",
-    "parcel": "1.12.4",
+    "parcel": "1.12.3",
     "prettier": "2.2.1"
   },
   "dependencies": {
