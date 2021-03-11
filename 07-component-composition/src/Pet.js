@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Pet = (props) => {
   const { name, animal, breed, images, location, id } = props;
 
@@ -9,7 +7,7 @@ const Pet = (props) => {
   }
 
   return (
-    <Link to={`/details/${id}`} className="pet">
+    <a href={`/details/${id}`} className="pet">
       <div className="image-container">
         <img src={hero} alt={name} />
       </div>
@@ -17,7 +15,7 @@ const Pet = (props) => {
         <h1>{name}</h1>
         <h2>{`${animal} — ${breed} — ${location}`}</h2>
       </div>
-    </Link>
+    </a>
   );
 };
 
