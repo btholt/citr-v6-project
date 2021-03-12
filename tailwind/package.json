@@ -17,6 +17,7 @@
     "@babel/preset-env": "7.13.5",
     "@babel/preset-react": "7.12.13",
     "@tailwindcss/forms": "0.2.1",
+    "@tailwindcss/postcss7-compat": "2.0.3",
     "autoprefixer": "9.8.6",
     "eslint": "7.18.0",
     "eslint-config-prettier": "8.1.0",
