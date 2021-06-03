@@ -16,7 +16,7 @@ app.use("/dist", express.static("dist"));
 app.use((req, res) => {
   const staticContext = {};
   const reactMarkup = (
-    <StaticRouter url={req.url} context={staticContext}>
+    <StaticRouter location={req.url} context={staticContext}>
       <App />
     </StaticRouter>
   );
