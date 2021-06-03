@@ -1,3 +1,3 @@
-export default function changeAnimal(theme) {
-  return { type: "CHANGE_ANIMAL", payload: theme };
+export default function changeAnimal(animal) {
+  return { type: "CHANGE_ANIMAL", payload: animal };
 }
