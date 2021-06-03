@@ -17,7 +17,7 @@ app.use((req, res) => {
   res.write(parts[0]);
   const staticContext = {};
   const reactMarkup = (
-    <StaticRouter url={req.url} context={staticContext}>
+    <StaticRouter location={req.url} context={staticContext}>
       <App />
     </StaticRouter>
   );
