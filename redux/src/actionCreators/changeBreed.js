@@ -1,3 +1,3 @@
-export default function changeBreed(theme) {
-  return { type: "CHANGE_BREED", payload: theme };
+export default function changeBreed(breed) {
+  return { type: "CHANGE_BREED", payload: breed };
 }
