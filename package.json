@@ -29,7 +29,8 @@
     "jest": "^26.6.3",
     "jest-fetch-mock": "^3.0.3",
     "parcel": "1.12.3",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "react-test-renderer": "^17.0.1"
   },
   "dependencies": {
     "react": "17.0.1",
