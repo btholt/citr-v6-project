@@ -1,16 +1,17 @@
 {
   "name": "adopt-me",
   "version": "1.0.0",
-  "description": "The Adopt Me pet adoption app",
+  "description": "Intermediate React Playground",
   "main": "src/index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
-  "author": "Brian Holt <btholt+citrv6@gmail.com>",
+  "author": "Dylan Baker<dylan@dylanbaker.me>",
   "license": "Apache-2.0",
   "devDependencies": {
     "@babel/core": "7.12.16",
